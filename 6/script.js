@@ -1,0 +1,5 @@
+const nav = document.getElementById('navigation')
+console.log(nav.className, nav.classList)
+nav.classList.add('single','multiple')
+console.log(nav.classList)
+nav.classList.remove('single')
